@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+	@keyframes spin{to{transform:rotate(359deg)}}
+	rect{width:7px;height:20px;rx:2;ry:2;x:46.5;y:40;fill:currentColor}
+  </style>
+  <g style="transform-origin:50px 50px 0;color:#41709F;animation: spin 1.2s linear infinite;">
+    <rect style="transform:translate(0,-30px)"/>
+    <rect style="transform:rotate(30deg);transform-origin:105.9px 65px"/>
+    <rect style="transform:rotate(60deg);transform-origin:75.9px 65px"/>
+    <rect style="transform:rotate(90deg);transform-origin:65px 65px;fill-opacity:.9"/>
+    <rect style="transform:rotate(120deg);transform-origin:58.6px 65px;fill-opacity:.8"/>
+    <rect style="transform:rotate(150deg);transform-origin:54px 65px;fill-opacity:.7"/>
+    <rect style="transform:rotate(180deg);transform-origin:50px 65px;fill-opacity:.6"/>
+    <rect style="transform:rotate(-150deg);transform-origin:45.9px 65px;fill-opacity:.5"/>
+    <rect style="transform:rotate(-120deg);transform-origin:41.3px 65px;fill-opacity:.4"/>
+    <rect style="transform:rotate(-90deg);transform-origin:35px 65px;fill-opacity:.3"/>
+    <rect style="transform:rotate(-60deg);transform-origin:24px 65px;fill-opacity:.2"/>
+    <rect style="transform:rotate(-30deg);transform-origin:-5.9px 65px;fill-opacity:.1"/>  	
+  </g>
+</svg>
