@@ -1,31 +1,31 @@
 # svg_AnimatedSpinner
 
 
-
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
-	<style type="text/css" >
-
-	 @-webkit-keyframes spin{from{-webkit-transform:scale(1) rotate(0deg);}to{-webkit-transform:scale(1) rotate(360deg);}}
-	 @-moz-keyframes spin{from{-moz-transform:scale(1) rotate(0deg);}to{-moz-transform:scale(1) rotate(360deg);}}
-	 @keyframes spin{from{transform:scale(1) rotate(0deg);}to{transform:scale(1) rotate(360deg);}}
-
-	 #spinner{
-		-webkit-animation:spin 1s infinite linear;
-		-moz-animation:spin 1s infinite linear;
-		animation:spin 1s infinite linear;
-		-webkit-transform-origin:50% 50%;
-		-moz-transform-origin:50% 50%;
-		transform-origin:50% 50%;
-	 }
-
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+	<style>
+		@keyframes spin{to{transform:rotate(359deg)}}
 	</style>
-	<g id="spinner">
-		<path fill-opacity=".7" d="M59.6 36h-8c-2 0-3.8-1.8-3.8-4s1.7-4 4-4h7.8c2 0 4 1.8 4 4s-2 4-4 4z"/><path fill-opacity=".8" d="M48.7 21c-1.5 1.4-4 1.4-5.5 0s-1.6-4.2 0-5.7l5.5-5.6c1.5-1.5 4-1.5 5.6 0s1.4 4 0 5.6l-5.6 5.5z"/>
-		<path d="M32 16.3c-2 0-4-1.8-4-4v-8c0-2 1.8-3.8 4-3.8s4 1.7 4 4v7.8c0 2.2-1.8 4-4 4z"/>
-		<path fill-opacity=".2" d="M15.3 21l-5.6-5.7c-1.5-1.5-1.5-4 0-5.6s4-1.5 5.6 0l5.5 5.6c1.5 1.5 1.5 4 0 5.5s-4 1.6-5.5 0z"/>
-		<path fill-opacity=".3" d="M16.3 32c0 2.2-1.8 4-4 4h-8c-2 0-3.8-1.8-3.8-4s1.7-4 4-4h7.8c2 0 4 1.8 4 4z"/>
-		<path fill-opacity=".4" d="M15.3 54.3c-1.6 1.5-4 1.5-5.6 0-1.5-1.6-1.5-4 0-5.6l5.6-5.5c1.5-1.5 4-1.5 5.5 0s1.5 4 0 5.5l-5.5 5.6z"/>
-		<path fill-opacity=".5" d="M32 63.5c-2 0-4-1.7-4-4v-7.8c0-2 1.8-4 4-4s4 1.8 4 4v8c0 2-2 3.8-4 3.8z"/>
-		<path fill-opacity=".6" d="M48.7 43l5.5 5.7c1.6 1.5 1.6 4 0 5.5-1.5 1.5-4 1.5-5.5 0l-5.5-5.6c-1.6-1.5-1.6-4 0-5.5s4-1.4 5.5 0z"/>
+	<g style="fill:none;stroke-opacity:.2;stroke-width:6;stroke-linecap:round;stroke:#000;vector-effect:non-scaling-stroke;">
+		<line x1="60.6" y1="75.5" x2="67.6" y2="92.5"/>
+		<line x1="39.3" y1="24.5" x2="32.5" y2="7.5"/>
+		<line x1="75.5" y1="39.5" x2="92.5" y2="32.5"/>
+		<line x1="24.5" y1="60.7" x2="7.7" y2="67.7"/>
+		<line x1="75.7" y1="60.5" x2="92.7" y2="67.5"/>
+		<line x1="24.7" y1="39.2" x2="7.7" y2="32.4"/>
+		<line x1="60.7" y1="24.6" x2="67.7" y2="7.4"/>
+		<line x1="39.5" y1="75.4" x2="32.5" y2="92.2"/>
+		<line x1="69.3" y1="69.2" x2="82.3" y2="82.2"/>
+		<line x1="30.6" y1="30.6" x2="17.6" y2="17.6"/>
+		<line x1="69.6" y1="30.6" x2="82.6" y2="17.6"/>
+		<line x1="30.6" y1="69.6" x2="17.4" y2="82.6"/>
+		<line x1="77.7" y1="50.4" x2="96" y2="50.4"/>
+		<line x1="22.4" y1="50.4" x2="4" y2="50.4"/>
+		<line x1="50" y1="22.8" x2="50" y2="4"/>
+		<line x1="50" y1="77.6" x2="50" y2="96"/>
+		<g style="transform-origin:50px 50px 0;animation: spin 1.2s steps(16) infinite">
+			<line x1="39.3" y1="24.5" x2="32.5" y2="7.5" stroke-opacity=".1"/>
+			<line x1="24.7" y1="39.2" x2="7.7" y2="32.4" stroke-opacity=".2"/>
+			<line x1="30.6" y1="30.6" x2="17.6" y2="17.6" stroke-opacity=".4"/>
+		</g>
 	</g>
 </svg>
