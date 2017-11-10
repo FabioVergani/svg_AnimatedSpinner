@@ -1,7 +1,7 @@
 # svg_AnimatedSpinner
 
 https://codepen.io/fabiovergani/pen/wPJzQg
-<!--
+
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100">
 	<style>
 		@keyframes i{to{transform:rotate(359deg)}}
@@ -28,5 +28,5 @@ https://codepen.io/fabiovergani/pen/wPJzQg
 		<use xlink:href="#l" stroke-opacity=".1" transform="rotate(-45 0 0)"/>
 	</g>
 </svg>
--->
+
 
