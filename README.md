@@ -1,31 +1,32 @@
 # svg_AnimatedSpinner
 
 https://codepen.io/fabiovergani/pen/wPJzQg
-
+<!--
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100">
 	<style>
-		@keyframes spin{to{transform:rotate(359deg)}}
+		@keyframes i{to{transform:rotate(359deg)}}
+		*{transform-origin:50px 50px;}
+		line{fill:none;stroke:#000;stroke-width:6;stroke-linecap:round}
+		#g{stroke-opacity:.2}
 	</style>
-	<g style="fill:none;stroke-opacity:.2;stroke-width:6;stroke-linecap:round;stroke:#000;vector-effect:non-scaling-stroke;">
-		<line x1="60.6" y1="75.5" x2="67.6" y2="92.5"/>
-		<line x1="39.3" y1="24.5" x2="32.5" y2="7.5"/>
-		<line x1="75.5" y1="39.5" x2="92.5" y2="32.5"/>
-		<line x1="24.5" y1="60.7" x2="7.7" y2="67.7"/>
-		<line x1="75.7" y1="60.5" x2="92.7" y2="67.5"/>
-		<line x1="24.7" y1="39.2" x2="7.7" y2="32.4"/>
-		<line x1="60.7" y1="24.6" x2="67.7" y2="7.4"/>
-		<line x1="39.5" y1="75.4" x2="32.5" y2="92.2"/>
-		<line x1="69.3" y1="69.2" x2="82.3" y2="82.2"/>
-		<line x1="30.6" y1="30.6" x2="17.6" y2="17.6"/>
-		<line x1="69.6" y1="30.6" x2="82.6" y2="17.6"/>
-		<line x1="30.6" y1="69.6" x2="17.4" y2="82.6"/>
-		<line x1="77.7" y1="50.4" x2="96" y2="50.4"/>
-		<line x1="22.4" y1="50.4" x2="4" y2="50.4"/>
-		<line x1="50" y1="22.8" x2="50" y2="4"/>
-		<line x1="50" y1="77.6" x2="50" y2="96"/>
-		<g style="transform-origin:50px 50px 0;animation: spin 1.2s steps(16) infinite">
-			<line x1="39.3" y1="24.5" x2="32.5" y2="7.5" stroke-opacity=".1"/>
-			<line x1="24.7" y1="39.2" x2="7.7" y2="32.4" stroke-opacity=".2"/>
-			<line x1="30.6" y1="30.6" x2="17.6" y2="17.6" stroke-opacity=".4"/>
+	<defs>
+		<line id="l" x1="50" x2="50" y1="20" y2="5"/>
+		<g id="g">
+			<use xlink:href="#l"/>
+			<use xlink:href="#l" transform="rotate(90 0 0)"/>
+			<use xlink:href="#l" transform="rotate(180 0 0)"/>
+			<use xlink:href="#l" transform="rotate(270 0 0)"/>
 		</g>
+	</defs>
+	<use xlink:href="#g"/>
+	<use xlink:href="#g" transform="rotate(22.5 0 0)"/>
+	<use xlink:href="#g" transform="rotate(45 0 0)"/>
+	<use xlink:href="#g" transform="rotate(67.5 0 0)"/>
+	<g style="animation:i 1.2s steps(16) infinite">
+		<use xlink:href="#l" stroke-opacity=".4"/>
+		<use xlink:href="#l" stroke-opacity=".2" transform="rotate(-22.5 0 0)"/>
+		<use xlink:href="#l" stroke-opacity=".1" transform="rotate(-45 0 0)"/>
 	</g>
+</svg>
+-->
 
