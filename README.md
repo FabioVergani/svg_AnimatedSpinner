@@ -1,7 +1,7 @@
 # svg_AnimatedSpinner
 
+https://codepen.io/fabiovergani/pen/wPJzQg
 
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
 	<style>
 		@keyframes spin{to{transform:rotate(359deg)}}
 	</style>
@@ -28,4 +28,4 @@
 			<line x1="30.6" y1="30.6" x2="17.6" y2="17.6" stroke-opacity=".4"/>
 		</g>
 	</g>
-</svg>
+
