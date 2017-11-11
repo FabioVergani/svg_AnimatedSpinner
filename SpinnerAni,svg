@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100">
+	<style>
+		rect{y:0;x:48;width:4px;height:25px;ry:2px;rx:2px;fill:#000;stroke-width:0;}
+	</style>
+	<rect transform="rotate(0,50,50)">
+		<animate attributeName="opacity" values="1;0;0;1" dur="1s" repeatCount="indefinite" begin="0s"/>
+	</rect>
+	<rect transform="rotate(30,50,50)">
+		<animate attributeName="opacity" values="1;0;0;1" dur="1s" repeatCount="indefinite" begin="0.08s"/>
+	</rect>
+	<rect transform="rotate(60,50,50)">
+		<animate attributeName="opacity" values="1;0;0;1" dur="1s" repeatCount="indefinite" begin="0.16s"/>
+	</rect>
+	<rect transform="rotate(90,50,50)">
+		<animate attributeName="opacity" values="1;0;0;1" dur="1s" repeatCount="indefinite" begin="0.25s"/>
+	</rect>
+	<rect transform="rotate(120,50,50)">
+		<animate attributeName="opacity" values="1;0;0;1" dur="1s" repeatCount="indefinite" begin="0.33s"/>
+	</rect>
+	<rect transform="rotate(150,50,50)">
+		<animate attributeName="opacity" values="1;0;0;1" dur="1s" repeatCount="indefinite" begin="0.41s"/>
+	</rect>
+	<rect transform="rotate(180,50,50)">
+		<animate attributeName="opacity" values="1;0;0;1" dur="1s" repeatCount="indefinite" begin="0.5s"/>
+	</rect>
+	<rect transform="rotate(210,50,50)">
+		<animate attributeName="opacity" values="1;0;0;1" dur="1s" repeatCount="indefinite" begin="0.58s"/>
+	</rect>
+	<rect transform="rotate(240,50,50)">
+		<animate attributeName="opacity" values="1;0;0;1" dur="1s" repeatCount="indefinite" begin="0.66s"/>
+	</rect>
+	<rect transform="rotate(270,50,50)">
+		<animate attributeName="opacity" values="1;0;0;1" dur="1s" repeatCount="indefinite" begin="0.75s"/>
+	</rect>
+	<rect transform="rotate(300,50,50)">
+		<animate attributeName="opacity" values="1;0;0;1" dur="1s" repeatCount="indefinite" begin="0.83s"/>
+	</rect>
+	<rect transform="rotate(330,50,50)">
+		<animate attributeName="opacity" values="1;0;0;1" dur="1s" repeatCount="indefinite" begin="0.91s"/>
+	</rect>
+</svg>
