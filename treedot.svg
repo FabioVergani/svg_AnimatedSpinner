@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<g fill="#001240">
+		<circle cx="50" cy="50" r="10" opacity="0">
+			<animate repeatCount="indefinite" dur=".5s" begin="2s" attributeName="opacity" values="0;1;0"/>
+			<animate repeatCount="indefinite" calcMode="spline" dur=".5s" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" attributeName="r" begin="0" values="0;10;10;10;0"/>
+			<animate repeatCount="indefinite" calcMode="spline" dur=".5s" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" attributeName="cx" begin="0" values="16;16;50;84;84"/>
+	</circle>
+		<circle cx="23" cy="50" r="10" opacity="0">
+			<animate repeatCount="indefinite"  dur="1s" begin="1s" attributeName="opacity" values="0;1;0"/>
+			<animate repeatCount="indefinite" calcMode="spline" dur="0" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" attributeName="r" begin="1s"  values="0;0;10;10;10"/>
+			<animate repeatCount="indefinite" calcMode="spline" dur="0" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" attributeName="cx" begin="1s" values="16;16;16;50;84"/>
+	</circle>
+		<circle cx="76" cy="50" r="10" opacity="0">
+			<animate repeatCount="indefinite" dur="1s" begin="3s" attributeName="opacity" values="0;1;0"/>
+			<animate repeatCount="indefinite" calcMode="spline" dur="1s" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" attributeName="r" begin="2s" values="0;10;10;10;0"/>
+			<animate repeatCount="indefinite" calcMode="spline" dur="1s" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" attributeName="cx" begin="2s" values="16;16;50;84;84"/>
+	</circle>
+	</g>
+</svg>
